@@ -23,3 +23,14 @@ Add new tasks
 Mark tasks as completed (checkbox-style toggle)
 Delete tasks individually
 Responsive for both Android and iOS
+
+
+EXP 7 contains A simple Flutter registration form with fields like name, mobile number, email, password, gender, country, and designation. The UI also includes terms and conditions agreement and navigation to login.
+Features:
+1)Clean and minimal UI
+2)Text input fields:Name,Mobile Number,Email Address,Create & Confirm Password.
+3)Gender selection using radio buttons.
+4)Dropdowns for:Country,Designation.
+5)Terms and Conditions checkbox
+6)Sign In button
+7)Login navigation link
