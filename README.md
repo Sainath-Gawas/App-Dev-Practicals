@@ -16,3 +16,10 @@ Clear (C) and Backspace (⌫) functionality
 Real-time expression evaluation using the math_expressions package
 Responsive and modern user interface
 Tap-based input using a dynamic button grid
+
+EXP 5 contains a simple To-Do list app built using React Native. It allows users to add, check off and delete tasks with  local storage via AsyncStorage. The app includes animations and a clean, mobile-friendly UI.
+Feature:
+Add new tasks
+Mark tasks as completed (checkbox-style toggle)
+Delete tasks individually
+Responsive for both Android and iOS
