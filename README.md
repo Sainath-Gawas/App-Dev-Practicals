@@ -34,3 +34,6 @@ Features:
 5)Terms and Conditions checkbox
 6)Sign In button
 7)Login navigation link
+
+
+EXP 8 contains simple app ui with tab based and drawer based navigation.
