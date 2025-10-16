@@ -19,9 +19,7 @@ interface Task {
   text: string;
   completed: boolean;
 }
-
 const STORAGE_KEY = '@tasks';
-
 if (
   Platform.OS === 'android' &&
   UIManager.setLayoutAnimationEnabledExperimental
