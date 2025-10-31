@@ -1,2 +1,3 @@
 .idea/
 "EXP 12/**/build/"
+**/node_modules/
