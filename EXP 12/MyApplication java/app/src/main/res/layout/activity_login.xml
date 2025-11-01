@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Card Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/login_card_bg"
+            android:elevation="6dp"
+            android:layout_marginTop="60dp">
+
+            <!-- Title -->
+            <TextView
+                android:text="Welcome Back 👋"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#1E1E1E"
+                android:layout_gravity="center"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Login to your account"
+                android:textSize="14sp"
+                android:textColor="#6B6B6B"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/emailEt"
+                android:hint="Email address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:background="@drawable/input_bg"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@android:drawable/ic_menu_send"
+                android:drawablePadding="10dp" />
+
+            <!-- Password -->
+            <EditText
+                android:id="@+id/passwordEt"
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:padding="14dp"
+                android:background="@drawable/input_bg"
+                android:inputType="textPassword"
+                android:drawableLeft="@android:drawable/ic_lock_lock"
+                android:drawablePadding="10dp" />
+
+            <!-- Login Button -->
+            <Button
+                android:id="@+id/loginBtn"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4E73DF"
+                android:layout_marginTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp" />
+
+            <!-- Forgot Password -->
+            <TextView
+                android:id="@+id/forgotPasswordBtn"
+                android:text="Forgot Password?"
+                android:textColor="#4E73DF"
+                android:textSize="14sp"
+                android:gravity="end"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Login with OTP -->
+            <Button
+                android:id="@+id/loginWithOtpBtn"
+                android:text="Login with OTP"
+                android:textAllCaps="false"
+                android:backgroundTint="#FF9800"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp" />
+
+            <!-- Guest Login -->
+            <Button
+                android:id="@+id/guestLoginBtn"
+                android:text="Continue as Guest"
+                android:textAllCaps="false"
+                android:backgroundTint="#6C757D"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp" />
+
+            <!-- Register Link -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Don't have an account?"
+                    android:textColor="#555555"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/registerBtn"
+                    android:text=" Register"
+                    android:textColor="#4E73DF"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

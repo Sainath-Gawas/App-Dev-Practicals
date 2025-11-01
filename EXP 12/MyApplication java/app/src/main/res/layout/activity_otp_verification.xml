@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/login_card_bg"
+            android:elevation="6dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:text="Mobile OTP Verification 🔐"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#1E1E1E"
+                android:layout_gravity="center"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Verify your phone number"
+                android:textSize="14sp"
+                android:textColor="#6B6B6B"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- Phone Number Input -->
+            <EditText
+                android:id="@+id/phoneEt"
+                android:hint="Enter Mobile Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:background="@drawable/input_bg"
+                android:inputType="phone"
+                android:maxLength="10" />
+
+            <!-- OTP Input -->
+            <EditText
+                android:id="@+id/otpEt"
+                android:hint="Enter OTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:padding="14dp"
+                android:background="@drawable/input_bg"
+                android:inputType="number"
+                android:visibility="gone" />
+
+            <!-- Action Button -->
+            <Button
+                android:id="@+id/actionBtn"
+                android:text="Send OTP"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4E73DF"
+                android:layout_marginTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp" />
+
+            <TextView
+                android:id="@+id/infoTv"
+                android:text="You will receive an OTP on your entered mobile number"
+                android:textSize="13sp"
+                android:textColor="#6B6B6B"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
